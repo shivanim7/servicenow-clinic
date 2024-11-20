@@ -1,8 +1,8 @@
 # Use a lightweight Python image
-FROM python:3.9-slim
+FROM python:3.11.10-slim
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /workspace
 
 # Copy requirements file
 COPY requirements.txt .
